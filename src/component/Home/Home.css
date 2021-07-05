@@ -1,0 +1,25 @@
+.home {
+    padding: 120px 10px;
+    position: relative;
+}
+
+.home .text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.home .text p {
+    font-size: 20px;
+    color: #00095E;
+    margin-bottom: 40px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+}
+/*mobile*/
+@media(max-width:575px) {
+    .home .text p {
+        font-size: 16px;
+    }
+}

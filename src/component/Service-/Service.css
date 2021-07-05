@@ -1,0 +1,50 @@
+.service {
+    padding: 70px 0;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #7EA0FF;
+    cursor: pointer;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
+
+.service p {
+    padding: 20px 15px 20px 41px;
+    color: #506072;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #EFEFEF !important;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.link-btn-ys {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    background-color: #FFC800;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding: 25px 0;
+    width: 200px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    border-radius: 5px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.6s ease-in;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 0 #00095E;
+    text-align: center;
+}

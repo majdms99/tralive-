@@ -1,0 +1,98 @@
+footer {
+    padding: 70px 0px;
+    background-color: #052848;
+}
+
+footer ul {
+    list-style: none;
+    color: rgb(194, 191, 191);
+    margin-left: -30px;
+}
+
+footer ul li {
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    color: #fff;
+}
+
+.f-logo img {
+    margin-top: -10px;
+    width: 150px;
+    height: 65px;
+}
+
+.f-heading {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+
+.f-text {
+    font-size: 16px;
+    color: #b5b8d4;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+}
+
+.pa {
+    font-size: 16px;
+    color: #b5b8d4;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+}
+
+.icons {
+    margin-bottom: 30px;
+}
+
+.icons .icon {
+    color: #00000063;
+    margin-right: 20px;
+    background: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.icons .icon:hover {
+    background-color: #FFC800;
+    margin-top: -10px;
+}
+
+.f-number {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px !important;
+    color: #FFC800 !important;
+    margin-top: 30px;
+    font-weight: 400 !important;
+    display: block;
+}
+
+.copyright {
+    text-align: center;
+    color: #777;
+    border-top: 1px solid #777;
+    margin-bottom: -30px;
+}
+
+.copyright P {
+    margin-top: 25px;
+}
+
+.name-d {
+    font-weight: bold;
+    margin-top: 25px;
+}

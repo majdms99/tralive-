@@ -1,0 +1,63 @@
+.customers {
+    background-image: url('./s1.webp');
+    padding: 70px 0;
+    position: relative;
+}
+
+.img-pro {
+    width: 70px;
+    height: 70px;
+}
+
+.slick-slide img {
+    display: inline-block;
+}
+
+.box-cust {
+    /* padding: 50px; */
+    max-width: 70%;
+    margin: auto;
+}
+
+.title-c {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.box-cust p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #fff;
+}
+
+.box-cust .name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.box-cust .job {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+/*mobile*/
+@media(max-width: 686px) {
+    .box-cust {
+        min-width: 95%;
+    }
+    .title-c {
+        font-size: 26px;
+    }
+    .box-cust p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,76 @@
+.slider {
+    padding: 70px 0px;
+}
+
+.slick-next {
+    right: 44%;
+}
+
+.slick-prev {
+    left: 44%;
+}
+
+.slick-next, .slick-prev {
+    top: 106%;
+}
+
+.slick-next::before, .slick-prev::before {
+    color: #7EA0FF;
+}
+
+.card-slide {
+    padding: 20px;
+}
+
+.card-slide .slide-text {
+    position: relative;
+}
+
+.card-slide .slide-text .heading-slide {
+    color: #00095E;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.card-slide {
+    box-shadow: 0 10px 15px rgb(0 9 94 / 6%);
+    margin-bottom: 20px;
+}
+
+.card-slide .slide-text .amount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #7EA0FF;
+    line-height: 1;
+}
+
+.card-slide .slide-text .date {
+    color: #7EA0FF;
+    background: rgba(126, 160, 255, 0.05);
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    padding: 9px 15px;
+    border-radius: 19px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+}
+
+.card-slide .slide-text .time {
+    color: #00095E;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4
+}

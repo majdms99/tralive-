@@ -1,0 +1,24 @@
+.img-home {
+    padding: 70px 0;
+    background-image: url('./h1_hero1.png.webp');
+    background-size: cover;
+}
+
+.img-home .image img {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.img-home .image {
+    overflow: hidden;
+    animation: left-right 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes left-right {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
